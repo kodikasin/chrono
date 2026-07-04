@@ -2,8 +2,7 @@
 
 A natural language date parser in Javascript. 
 
-![Build Status](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
-[![Coverage Status](https://img.shields.io/coverallsCoverage/github/kodikasin/chrono.svg)](https://coveralls.io/r/kodikasin/chrono?branch=master)
+
 
 It is designed to handle most date/time format and extract information from any given text:
 
