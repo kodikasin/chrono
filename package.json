@@ -6,6 +6,10 @@
     "type": "git",
     "url": "https://github.com/kodikasin/chrono.git"
   },
+  "author": "Kodikas <ceo@kodikas.in>",
+  "bugs": {
+    "url": "https://github.com/kodikasin/chrono/issues"
+  },
   "prettier": {
     "quoteProps": "preserve",
     "trailingComma": "es5"
@@ -15,7 +19,7 @@
     "preset": "ts-jest"
   },
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "directories": {
     "source": "./src",
     "test": "./test"

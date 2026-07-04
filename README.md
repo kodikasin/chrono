@@ -3,7 +3,7 @@
 A natural language date parser in Javascript. 
 
 ![Build Status](https://github.com/github/docs/actions/workflows/test.yml/badge.svg)
-[![Coverage Status](https://img.shields.io/coverallsCoverage/github/wanasit/chrono.svg)](https://coveralls.io/r/wanasit/chrono?branch=master)
+[![Coverage Status](https://img.shields.io/coverallsCoverage/github/kodikasin/chrono.svg)](https://coveralls.io/r/kodikasin/chrono?branch=master)
 
 It is designed to handle most date/time format and extract information from any given text:
 
@@ -59,7 +59,7 @@ For contributors and advanced users
 * New [Parser](#parser) and [Refiner](#refiner) interface 
 * New source code structure. All parsers, refiners, and configuration should be under a locale directory (See. `locales/en`)
 
-**Note: [v1.x.x](https://github.com/wanasit/chrono/tree/v1.x.x) will still be supported for the time being.**
+**Note: [v1.x.x](https://github.com/kodikasin/chrono/tree/v1.x.x) will still be supported for the time being.**
 
 ## Usage
 
@@ -333,7 +333,7 @@ The method must return an array of the new results (which, in this case, we modi
 
 ### More documentation
 
-Checkout the Typescript Documentation in the project's [Github page](http://wanasit.github.io/chrono/).
+Checkout the Typescript Documentation in the project's [Github page](http://kodikasin.github.io/chrono/).
 
 ## Development Guides
 
@@ -341,7 +341,7 @@ This guide explains how to set up chrono project for prospective contributors.
 
 ```bash
 # Clone and install library
-$ git clone https://github.com/wanasit/chrono.git chrono
+$ git clone https://github.com/kodikasin/chrono.git chrono
 $ cd chrono
 $ npm install
 
