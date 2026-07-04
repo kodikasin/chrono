@@ -19,7 +19,22 @@ It is designed to handle most date/time format and extract information from any 
 
 With npm:
 ```bash
-$ npm install --save chrono-node
+$ npm install --save @kodikasgroup/chrono-node
+```
+
+With yarn:
+```bash
+$ yarn add @kodikasgroup/chrono-node
+```
+
+With pnpm:
+```bash
+$ pnpm add @kodikasgroup/chrono-node
+```
+
+With bun:
+```bash
+$ bun add @kodikasgroup/chrono-node
 ```
     
 ```javascript
@@ -37,7 +52,7 @@ const chrono = require('chrono-node');
 ### What's changed in the v2
 For Users
 * Chrono’s default now handles only international English. While in the previous version, it tried to parse with all known languages.
-* In addition to English, Chrono supports the following languages: `fi`, `fr`, `ja`, `nl`, `ru`, `uk`, and `vi`. We also have partial support for `de`, `es`, `it`, `pt`, `sv`, `zh.hans`, and `zh.hant`.
+* In addition to English, Chrono supports the following languages: `fi`, `fr`, `hi` (Hindi), `ja`, `nl`, `ru`, `uk`, and `vi`. We also have partial support for `de`, `es`, `it`, `pt`, `sv`, `zh.hans`, and `zh.hant`.
 
 For contributors and advanced users
 * The project is rewritten in TypeScript
@@ -212,7 +227,7 @@ chrono.en.GB.parseDate('6/10/2018');    // October 6th, 2018
 chrono.ja.parseDate('昭和６４年１月７日'); 
 ```
 
-In addition to English, Chrono supports the following languages: `fi`, `fr`, `ja`, `nl`, `ru`, `uk`, and `vi`. We also have partial support for `de`, `es`, `it`, `pt`, `sv`, `zh.hans`, and `zh.hant`.
+In addition to English, Chrono supports the following languages: `fi`, `fr`, `hi` (Hindi), `ja`, `nl`, `ru`, `uk`, and `vi`. We also have partial support for `de`, `es`, `it`, `pt`, `sv`, `zh.hans`, and `zh.hant`.
 
 #### Importing specific locales
 
